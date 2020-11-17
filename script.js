@@ -11,7 +11,11 @@
         console.log(secretNumber);
 
         if (inputNumber == secretNumber) {
-            alert ("Awesome! Your number " + inputNumber + " was correct. You can be named many things, hungry is not being one of them.")
+            alert ("Awesome! Your number " + inputNumber + " was correct. You can be named many things, hungry is not being one of them.");
+        }
+
+        else if (inputNumber == secretNumber + 1 || inputNumber == secretNumber - 1) {
+            alert ("So close, but you just missed it! Are you in a class that started on the thirteenth or what? You guessed " + inputNumber + " and the secret number was " + secretNumber + ".");
         }
 
         else {
